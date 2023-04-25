@@ -146,7 +146,6 @@ function showResults(){
     headerContainer.innerHTML = finalMessage
     console.log(headerContainer)
 
-    submitBtn.blur()
     submitBtn.innerHTML = 'Restart'
     submitBtn.onclick = () => history.go()
 }
